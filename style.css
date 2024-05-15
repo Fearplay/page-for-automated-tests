@@ -1,0 +1,34 @@
+label, input{
+    margin-top: 10px;
+}
+
+img{
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+nav {
+    display: flex;
+flex-wrap: wrap;
+    background: #333;
+    color: #fff;
+}
+nav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+
+}
+nav a:hover{
+    background-color: #555;
+}
+input:invalid {
+    border: 2px dashed red;
+  }
